@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href= "../css/eventPropagation.css"></link>
+    <title>Event Propagation</title>
+</head>
+<body>
+    <div class="parent" id="parent">
+        <h2>Parent</h2>
+        <div id="child">
+            <h3>Child</h3>
+            <button class="btn" id="target1">Button 1</button>
+            <button class="btn" id="target2">Button 2</button>
+        </div>
+    </div>
+    <ul id="tasks">
+        <li>List task 1</li>
+        <li>List task 2</li>
+    </ul>
+    <script src="../js/eventPropagation.js"></script>
+    <script src="../js/variables.js"></script>
+</body>
+</html>
