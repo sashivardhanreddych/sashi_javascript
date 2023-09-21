@@ -7,7 +7,7 @@ let event2 = document.getElementById("target2");
 
 /**** 
  * Uncaught TypeError: Cannot read properties of null (reading 'addEventListener') 
- * if we add script tag in header, there is two ways to resolve it
+ * if we add script tag in head tag, there is two ways to resolve it
  *  1) we need to move script tag to end of the body tag
  *  2) By using DOMContentLoaded event 
  *     document.addEventListener("DOMContentLoaded", () => { });
