@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link href="./../css/header-styles.css" rel="stylesheet"></link>
+
+</head>
+<body>
+    <header class="header-container">
+        <ul>
+            <li class="menu_item has_dropdown">
+                <a href="#"  aria-expanded="false" aria-haspopup="true"  role="button">Test</a>
+            </li>
+            <li class="menu_item has_dropdown has_click_menu" id="hasOpenMegaMenu" onclick="showMegaMenu()">
+                <a href="#"  aria-expanded="false" aria-haspopup="true"  role="button">What we do</a>
+            </li>
+            <li class="menu_item has_dropdown">
+                <a href="#"  aria-expanded="false" aria-haspopup="true"  role="button">Home</a>
+            </li>
+        </ul>
+    </header>
+    <div class="mega-menu">
+        <div class="mega-menu-left">
+            <div class="mega-menu-items"></div>
+            <div class="mega-sub-menu-items"></div>
+            <div class="mega-nested-sub-menu"></div>
+        </div>
+        <div class="mega-aside-items"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./../js/InnoHeader.js"></script>
+</body>
+</html>

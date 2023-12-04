@@ -32,6 +32,18 @@
         }
 
         fetchUsers();
+
+        function selectAllCB(){
+            const masterCb = document.getElementById('masterBox');
+            if(masterCb){
+                const childCb = document.getElementById('childBox');
+                if(masterCb.checked){
+                    childCb.checked = true;
+                }else{
+                    childCb.checked = true;
+                }
+            }
+        }
     </script>
 </head>
 <body>
@@ -60,5 +72,6 @@
     <script src="../js/questionsInJS.js"></script>
     <script src="../js/closures.js"></script>
     <script src="../js/interviewQuestions.js"></script>
+    <script src="../js/asynchronousWays.js"></script>
 </body>
 </html>

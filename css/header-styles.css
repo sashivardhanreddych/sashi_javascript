@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-container{
+    width: 100%;
+    height: 60px;
+    background-color: #a4dcf8;
+}
+.header-container ul{
+    display: flex;
+    justify-content: center;
+}
+.header-container ul li{
+    height: 20px;
+    /* background-color: #0f0; */
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.mega-menu {
+    width: calc(100% - 40px);
+    height: 100%;
+    min-height: 60vh;
+    max-height: max-content;
+    display: none;
+    background-color: #ccc;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  .mega-menu-items{
+    display: block;
+    width: 100%;
+    max-width: max-content;
+    float: left;
+    /* background-color: #0f0; */
+  }
+  .mega-sub-menu-items{
+    width: 100%;
+    max-width: max-content;
+    float: left;
+    /* background-color: rgb(128, 93, 219); */
+  }
+  .mega-aside-items{
+    width: 100%;
+    max-width: max-content;
+    float: left;
+    background-color: rgb(254, 134, 232);
+  }
+
+  .mega-menu-items,
+  .mega-sub-menu-items,
+  .mega-aside-items {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+  }
+
+  .mega-menu-left .mega-menu-items ul{
+    width : 30%;
+    height : 100%;
+    min-width: max-content;
+    list-style: none;
+  }
+  .mega-menu-left .mega-menu-items ul li{
+    width : 150px;
+    height : 40px;
+    line-height: 40px;
+    /* background-color: rgb(52, 49, 237); */
+    padding: 0 5px;
+    border-bottom: 1px solid #516d63;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mega-menu-left .mega-menu-items ul li a{
+    font-size: 16px;
+    /* background-color: rgb(237, 49, 221); */
+  }
+  .mega-menu-left .mega-sub-menu-items{
+    margin: 0 10px;
+    border: 2px solid #f58d8d;
+  }
+  .mega-menu-left .mega-sub-menu-items h5{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 5px 0px 5px;
+    color: #ff9408;
+  }
+  .mega-menu-left .mega-sub-menu-items ul{
+    width : 30%;
+    height : 100%;
+    min-width: max-content;
+    list-style: none;
+  }
+  .mega-menu-left .mega-sub-menu-items ul li{
+    width : 250px;
+    /* height : 30px; */
+    line-height: 30px;
+    /* background-color: rgb(52, 49, 237); */
+    padding: 0px 5px;
+    font-size: 14px;
+  }
+
+  .mega-menu-left .mega-sub-menu-items ul li .mega-nested-sub-menu{
+    height: 100%;
+    min-height: 15vh;
+    background-color: #8df5be;
+  }
+
+  .mega-menu .mega-aside-items div{
+    border: 2px solid #a4dcf8;
+  }
+  .mega-menu .mega-aside-items img{
+    width: 30%;
+    max-width: 300px;
+    background-color: #8df5be;
+  }

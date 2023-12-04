@@ -41,3 +41,29 @@ function bgChange(bgColor){
         console.log("default color");
     }
 }
+
+
+class Animal{
+    constructor(){
+        this.name = null;
+    }
+    printName(){
+        console.log("Animal is ", this.name);
+    }
+}
+class Dog extends Animal{
+    constructor(){
+        super();
+        this.name = 'Dog';
+        this.printName();
+    }
+}
+
+const dog = new Dog();
+
+/****
+ *          (or)
+ * 
+ * dog.printName();
+ * 
+ */

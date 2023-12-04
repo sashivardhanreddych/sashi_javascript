@@ -1,6 +1,5 @@
 // Hoisting in javascript
 
-console.log("number", num, number);
 num = 6;
 var num;
 
@@ -36,4 +35,3 @@ var newFunc2 = function(){
 var newFunc3 = () => {
     console.log("checking var array newFunc 3");
 }
-
